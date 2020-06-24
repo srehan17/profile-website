@@ -371,4 +371,8 @@ main#about h1 {
   .profile-img {
     display: none;
   }
+
+  .container {
+    padding: 0 1rem;
+  }
 }
