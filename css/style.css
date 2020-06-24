@@ -89,6 +89,10 @@ a {
   background-color: #808080;
 }
 
+#nav-icon {
+  visibility: hidden;
+}
+
 #nav a:hover {
   background: var(--dark-color);
   opacity: 0.7;
@@ -364,6 +368,10 @@ main#about h1 {
     width: 100%;
   }
 
+  #nav-icon {
+    visibility: visible;
+  }
+
   #showcase .container {
     height: 50vh;
   }
@@ -376,7 +384,7 @@ main#about h1 {
     padding: 0 1rem;
   }
 
-  #contact p {
-    padding: 0 1rem;
+  #contact .container {
+    padding: 0 4rem;
   }
 }
