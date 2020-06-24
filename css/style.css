@@ -375,4 +375,8 @@ main#about h1 {
   .container {
     padding: 0 1rem;
   }
+
+  #contact p {
+    padding: 0 1rem;
+  }
 }
