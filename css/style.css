@@ -61,7 +61,6 @@ h1 {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  max-width: var(--max-width);
   padding: 0 2rem;
 }
 
@@ -89,8 +88,15 @@ a {
   background-color: #808080;
 }
 
-#nav-icon {
-  visibility: hidden;
+.burger .line {
+  width: 25px;
+  height: 3px;
+  background-color: var(--dark-color);
+  margin: 5px;
+}
+
+.burger {
+  display: none;
 }
 
 #nav a:hover {
@@ -367,9 +373,8 @@ main#about h1 {
   #nav ul li a:hover {
     width: 100%;
   }
-
-  #nav-icon {
-    visibility: visible;
+  #burger {
+    display: block;
   }
 
   #showcase .container {
@@ -385,6 +390,6 @@ main#about h1 {
   }
 
   #contact .container {
-    padding: 0 4rem;
+    padding: 0 3rem;
   }
 }
