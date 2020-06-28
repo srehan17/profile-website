@@ -386,7 +386,7 @@ main#about h1 {
   }
 
   .container {
-    padding: 0 1rem;
+    padding: 0 0.5rem;
   }
 
   #contact .container {
