@@ -392,4 +392,12 @@ main#about h1 {
   #contact .container {
     padding: 0 3rem;
   }
+
+  #tech-stack h3 {
+    font-size: 1rem;
+  }
+  /* 
+  #contact p {
+    font-size: 1rem;
+  } */
 }
