@@ -393,11 +393,11 @@ main#about h1 {
     padding: 0 3rem;
   }
 
-  #tech-stack h3 {
+  #tech-stack .container .technologies {
     font-size: 1rem;
   }
-  /* 
-  #contact p {
+
+  #contact .container p {
     font-size: 1rem;
-  } */
+  }
 }
